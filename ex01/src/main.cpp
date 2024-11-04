@@ -6,7 +6,7 @@
 
 int main()
 {
-	std::cout << "\033[1;34m\n--- Animal tests ---\033[0m" << std::endl;
+	std::cout << "\033[1;34m--- Animal tests ---\033[0m" << std::endl;
 	const int numAnimals = 10;
 	Animal* animals[numAnimals];
 
