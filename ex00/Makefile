@@ -27,8 +27,6 @@ DEPS := $(OBJS:.o=.d)
 # Compiler flags
 CXXFLAGS += -I$(incdir) -Wall -Wextra -Werror -Wpedantic -Wwrite-strings \
 -Wconversion -Wshadow -MMD -MP -std=c++98
-LDFLAGS += -L/opt/homebrew/lib
-
 
 # Declare phony targets
 .PHONY: all clean fclean re directories
